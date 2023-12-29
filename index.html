@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD-Operator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend><h3>Form</h3></legend>
+    <form id="form"> 
+        <input type="text" name="name"class="page" id="name" placeholder="Name">
+        <br><br>
+        <input type="text" class="page" name="job" id="job" placeholder="Job">
+        <br><br>
+        <input type="text" name="exp"  class="page" id="exp" placeholder="Experience">
+        <br><br>
+        <input type="button" value="Submit" class="btn" onclick="Submit()">
+
+        <input type="reset" name="reset" class="btn" placeholder="reset">
+
+
+    </form>
+    <br>
+    </fieldset>
+    <br/>
+    <div id="msg"></div>
+
+    <fieldset>
+        <legend><h3>Data from local Storage</h3></legend>
+
+        <table border="2" id="table">
+            <tr>
+                <td class="col">Name</td>
+                <td class="col">Job</td>
+                <td class="col">Experience</td>
+                <td class="col">Activity</td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+<script src="script.js"></script>
+</html>

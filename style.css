@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    padding: 20px;
+    
+}
+input[type="text"]{
+    padding: 10px;
+    width: 30%;
+    font-size: 1.2rem;
+}
+.btn{
+    padding: 10px;
+    width: 15%;
+    font-size: 1rem;
+    background-color: rgba(172, 65, 144, 0.961);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 250, 250);
+    color: #000;
+    transition: all 0.5s ease-in;
+}
+h3{
+    color: #fff;
+    font-size: 1.3rem;
+
+}
+table td{
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    
+    
+}
+table{
+    margin: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.col{
+    background-color: rgb(31, 215, 55);
+    text-align: center;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 2px solid green;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}button:hover{
+    background-color: turquoise;
+    transition: all 1s ease-in-out;
+    color: rgba(0, 0, 0, 0.75);
+}
+#msg{
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+input [type="placeholder"]{
+   color: aqua;
+}
+
+
+
